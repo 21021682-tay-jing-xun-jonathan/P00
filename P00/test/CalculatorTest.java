@@ -27,7 +27,8 @@ public class CalculatorTest {
 	@Test
 	
 		//fail("Not yet implemented");
-		public void testAdd() {
+	//test case for addition	
+	public void testAdd() {
 			int a = 4321;
 			int b = 1234;
 				
@@ -37,6 +38,7 @@ public class CalculatorTest {
 			int expected = 5555;
 			assertEquals (expected, actual);
 			}
+	//test case for subtract
 	public void testsubtract() {
 		int a = 4321;
 		int b = 1234;
@@ -47,6 +49,7 @@ public class CalculatorTest {
 		int expected = 3087;
 		assertEquals (expected, actual);
 		}
+	//test case for multiply
 	public void testmultiply() {
 		int a = 4321;
 		int b = 1234;
@@ -57,6 +60,7 @@ public class CalculatorTest {
 		int expected = 5332114;
 		assertEquals (expected, actual);
 		}
+	//test case for divide
 	public void testdivide() {
 		int a = 4321;
 		int b = 1234;
